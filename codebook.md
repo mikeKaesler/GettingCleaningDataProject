@@ -13,23 +13,23 @@ variables in the finished dataset
 		of that particular measurement in the x, y, or z axis
 
 variables in the Code
-	- features - data table of loaded features.txt
-	- activity_labels - data table of loaded activity_labels.txt
-	- X_train - data table of loaded X_train.txt
-	- X_test - data table of loaded X_test.txt
-	- subject_test - data table of loaded subject_test.txt
-	- subject_train - data table of loaded subject_train.txt
-	- y_train - data table of loaded y_train.txt
-	- y_test - data table of loaded y_test.txt
-	- name_vec - vector of the second column of the features variable, the column names
-	- names - name_vec with valid naming procedure
-	- data - the first iteration of the tidyied data, repeatedly updated and changed
-	- subjectData - the combined data table of subject_test and subject_train
-	- activityData - the combined data table of y_train and y_test
-	- meanNames - character vector of each element in names that contains mean. in it
-	- stdNames - character vector of each element in names that contains std. in it
-	- bothNames - combined character vector of meanNames and stdNames
-	- meanStdData - new data table containing only the columns of the 'data' data table with 
-		varible names corresponding to 'bothNames'
-	- aggdata - the data table of the final, tidy data set, showing the measurements of each
-		subject id doing each activity
+		- features - data table of loaded features.txt
+		- activity_labels - data table of loaded activity_labels.txt
+		- X_train - data table of loaded X_train.txt
+		- X_test - data table of loaded X_test.txt
+		- subject_test - data table of loaded subject_test.txt
+		- subject_train - data table of loaded subject_train.txt
+		- y_train - data table of loaded y_train.txt
+		- y_test - data table of loaded y_test.txt
+		- name_vec - vector of the second column of the features variable, the column names
+		- names - name_vec with valid naming procedure
+		- data - the first iteration of the tidyied data, repeatedly updated and changed
+		- subjectData - the combined data table of subject_test and subject_train
+		- activityData - the combined data table of y_train and y_test
+		- meanNames - character vector of each element in names that contains mean. in it
+		- stdNames - character vector of each element in names that contains std. in it
+		- bothNames - combined character vector of meanNames and stdNames
+		- meanStdData - new data table containing only the columns of the 'data' data table with 
+			varible names corresponding to 'bothNames'
+		- aggdata - the data table of the final, tidy data set, showing the measurements of each
+			subject id doing each activity
